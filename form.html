@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand col-12 navbar-dark bg-warning">
+            <div class="container">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav pb-1">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Зарубин Александр Николаевич</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Группа 201-323</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">28.01.2022</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>   
+    <section>
+        <div class="container pt-5 d-flex justify-content-center">
+            <div class="mb-3 col-md-6 col-lg-4 col-sm-12">
+                <form action="//httpbin.org/post" class="was-validated" method="POST" data-netlify="true">
+                    <div class="mb-3">
+                        <label for="InputText" class="form-label">Имя</label>
+                        <input type="text" class="form-control" id="InputText">
+                        </div>
+                    <div class="mb-3">
+                        <label for="InputEmail" class="form-label">
+                            Адрес электронной почты
+                        </label>
+                        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Alex@mail.ru">
+                    </div>
+                    <p class="m-2">Рейтинг</p>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="CheckAnswer1">
+                        <label class="form-check-label" for="CheckAnswer1">Плохо</label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="CheckAnswer2">
+                        <label class="form-check-label" for="CheckAnswer2">Нормально</label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="CheckAnswer3">
+                        <label class="form-check-label" for="CheckAnswer3">Хорошо</label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="CheckAnswer4">
+                        <label class="form-check-label" for="CheckAnswer4">Отлично</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
