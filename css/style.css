@@ -79,7 +79,7 @@ body {
 .Body_Inner {
   background-image: url(/img/Main.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% auto;
   margin-top: 32px;
   height: 700px;
 }
@@ -118,4 +118,9 @@ body {
 .darkness {
   background-color: rgba(0, 0, 0, 0.54);
   height: 100%;
+}
+@media (max-width: 1400px) {
+  .Header_Button {
+    margin-left: 10px;
+  }
 }
