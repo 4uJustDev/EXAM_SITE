@@ -1,7 +1,90 @@
 /*Google Fonts*/
+/*font-family: 'DM Sans', sans-serif;*/
 /*Main*/
+:root {
+  --Color_Blue: #086cf9;
+}
+/*FONTS*/
+a {
+  color: #2c1500;
+  text-decoration: none;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  padding: 0;
+}
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: "DM Sans", sans-serif;
+}
+.Padding_Value_1 {
+  padding: 12px 24px;
+}
+.Blue_Button {
+  background-color: var(--Color_Blue);
+  border-radius: 4px;
+}
 /*Header*/
+.Header_Inner {
+  max-width: 1152px;
+  max-height: 48px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.Header_First {
+  padding: 8px 0px;
+}
+.Header_Buttons {
+  max-width: 480px;
+  margin: 12px 0px;
+  display: flex;
+}
+.Header_Button {
+  display: flex;
+  margin-left: 40px;
+}
+.Header_Register {
+  width: 200px;
+  display: flex;
+}
+.Header_Link {
+  margin: 12px 0px;
+}
+.Register_Button {
+  margin-left: 48px;
+  color: white;
+}
 /*Body*/
+body {
+  box-sizing: border-box;
+}
+.Body_Inner {
+  background: url(img/Main.jpg);
+
+  height: 834px;
+}
 /*Text*/
+.Text_Bold {
+  font-weight: bold;
+}
 /*Img*/
-/**/
+img.background {
+  margin-top: 32px;
+  min-height: 100%;
+  height: auto;
+}
