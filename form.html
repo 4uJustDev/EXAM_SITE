@@ -28,42 +28,40 @@
             </div>
         </nav>
     </header>   
-    <section>
-        <div class="container pt-5 d-flex justify-content-center">
-            <div class="mb-3 col-md-6 col-lg-4 col-sm-12">
-                <form action="//httpbin.org/post" class="was-validated" method="POST" data-netlify="true">
-                    <div class="mb-3">
-                        <label for="InputText" class="form-label">Имя</label>
-                        <input type="text" class="form-control" id="InputText">
-                        </div>
-                    <div class="mb-3">
-                        <label for="InputEmail" class="form-label">
-                            Адрес электронной почты
-                        </label>
-                        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Alex@mail.ru">
+    <div class="container pt-5 d-flex justify-content-center">
+        <div class="mb-3 col-md-6 col-lg-4 col-sm-12">
+            <form action="//httpbin.org/post" class="was-validated" method="POST" data-netlify="true">
+                <div class="mb-3">
+                    <label for="InputText" class="form-label">Имя</label>
+                    <input type="text" class="form-control" id="InputText">
                     </div>
-                    <p class="m-2">Рейтинг</p>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="CheckAnswer1">
-                        <label class="form-check-label" for="CheckAnswer1">Плохо</label>
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="CheckAnswer2">
-                        <label class="form-check-label" for="CheckAnswer2">Нормально</label>
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="CheckAnswer3">
-                        <label class="form-check-label" for="CheckAnswer3">Хорошо</label>
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="CheckAnswer4">
-                        <label class="form-check-label" for="CheckAnswer4">Отлично</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Отправить</button>
-                </form>
-            </div>
+                <div class="mb-3">
+                    <label for="InputEmail" class="form-label">
+                        Адрес электронной почты
+                    </label>
+                    <input type="email" class="form-control" id="InputEmail" placeholder="Alex@mail.ru">
+                </div>
+                <p class="m-2">Рейтинг</p>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="CheckAnswer1">
+                    <label class="form-check-label" for="CheckAnswer1">Плохо</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="CheckAnswer2">
+                    <label class="form-check-label" for="CheckAnswer2">Нормально</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="CheckAnswer3">
+                    <label class="form-check-label" for="CheckAnswer3">Хорошо</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="CheckAnswer4">
+                    <label class="form-check-label" for="CheckAnswer4">Отлично</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить</button>
+            </form>
         </div>
-    </section>
+    </div>
     <script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
